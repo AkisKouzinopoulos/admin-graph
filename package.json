@@ -28,7 +28,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -81,7 +81,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://data.smartdublin.ie/",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.17.12",
     "@babel/runtime": "^7.17.9",
